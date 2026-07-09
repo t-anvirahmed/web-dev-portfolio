@@ -8,6 +8,17 @@
   margin: 0 auto;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.section-text {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #757575;
+}
+
 .text-lg {
   font-size: 1.125rem;
 }
@@ -39,11 +50,9 @@
 /* header section styles */
 header {
   background-color: #fff8f3;
-  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-image: url("images/developer.png");
   background-repeat: no-repeat;
-  background-position:
-    bottom right,
-    top left;
+  background-position: top left;
 }
 
 /* nav styles */
@@ -81,7 +90,7 @@ nav ul li a {
 .hero {
   display: flex;
   align-items: center;
-  gap: 144px;
+  gap: 128px;
 }
 
 .hero-greeting {
@@ -109,4 +118,37 @@ nav ul li a {
   display: flex;
   gap: 30px;
   margin-top: 30px;
+}
+
+/* about me section */
+.about-me {
+  margin-top: 130px;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 130px 0px;
+  border-radius: 12px;
+}
+
+.about-me > p {
+  padding: 0 150px;
+}
+
+.about-me-info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.about-me-info h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 8px;
+}
+
+.about-me-info p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 0;
 }
